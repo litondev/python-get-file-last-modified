@@ -1,3 +1,9 @@
+* NOTE TIDAK DAPAT MENGUNAKAN ABSOLUTE PATH
+ -> SOLUSI GUNAKAN os.chadir(")
+
+. => folder sekarang 
+~ => folder user
+
 - find . -newermt "1 day ago" -ls
  - mencari seluruh file/folder termasuk hidden file, di folder ini yang diedit/tambah 1 hari yang lalu
   (termasuk folder/file di dalam subfolder)
