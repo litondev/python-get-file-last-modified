@@ -1,0 +1,12 @@
+- find . -newermt "1 day ago" -ls
+ - mencari seluruh file/folder termasuk hidden file, di folder ini yang diedit/tambah 1 hari yang lalu
+  (termasuk folder/file di dalam subfolder)
+
+- find ./* -newermt "1 hour ago" -ls 
+ - mencari seluruh file/folder tidak termasuk hidden file di folder ini yang diedit/tambah 1 jam yang lalu
+  (termasuk folder/file di dalam subfolder)
+
+- find ./*.txt -newermt "1 hour ago" -ls
+ - mencari seluruh file/folder .txt di folder ini yang diedit/tambah 1 jam yang lalu
+  (termasuk folder/file di dalam subfolder)
+
